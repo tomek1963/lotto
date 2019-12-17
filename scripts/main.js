@@ -1,6 +1,6 @@
 
 function getRandomNumber(from = 1, to = 49) {
-    return Math.round(Math.random() + (to - from) + from);
+    return Math.round(Math.random() * (to - from) + from);
 };
 
 function buildArrayWithRandomNumbers(quantity = 6) {
@@ -11,7 +11,7 @@ function buildArrayWithRandomNumbers(quantity = 6) {
 function render(list) {
     let html = '';
     function template(item) {
-        return `<span>${item}</span`;
+        return `<span>${item}</span>`;
 
     }
 
@@ -30,12 +30,4 @@ function main() {
 }
 
 
-window.addEventListener('DOMContentLoaded', main)
-
-
-
-
-
-
-
-
+window.addEventListener('DOMContentLoaded', main);
