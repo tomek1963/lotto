@@ -12,7 +12,6 @@ function render(list) {
     let html = '';
     function template(item) {
         return `<span>${item}</span>`;
-
     }
 
     list.forEach(function (item) {

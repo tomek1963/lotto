@@ -1,0 +1,17 @@
+:root {
+    /* cisteczko */
+    --size: 10vw;
+}
+
+span {
+    width: var(--size);
+    height: var(--size);
+    display: inline-block;
+    border-radius: 50%;
+    background-color: yellow;
+    font-size: 6vw;
+    text-align: center;
+    line-height: var(--size);
+    box-shadow: inset 0 0 40px grey;
+    margin: 0 10px;
+}
